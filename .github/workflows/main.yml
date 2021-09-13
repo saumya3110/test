@@ -19,6 +19,6 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: .saumya3110/test/Test2.bicep
+        template: /saumya3110/test/Test2.bicep
         parameters: storagePrefix=mydiodesacc
         failOnStdErr: false
